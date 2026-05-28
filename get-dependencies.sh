@@ -13,6 +13,7 @@ echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano gtk2-mini glycin-mini
 
 # Comment this out if you need an AUR package
+make-aur-package gtkmm
 make-aur-package nitrogen
 
 # If the application needs to be manually built that has to be done down here
